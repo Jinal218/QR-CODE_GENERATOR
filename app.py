@@ -22,10 +22,10 @@ components.html(html_code)
 img = Image.open("qrcode.jpg")
 st.image(img,width = 700)
 
-data = st.text_input("Enter your data that you want to embed")
+data = st.text_input("ENTER THE LINK:")
 
-box_size = st.number_input("Enter box size:")
-border = st.number_input("Enter border spacing:")
+box_size = st.number_input("ENTER BOX SIZE:")
+border = st.number_input("ENTER BOX SPACING:")
 
 from matplotlib import colors as mcolors
 
